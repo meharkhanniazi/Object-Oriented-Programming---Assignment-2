@@ -37,7 +37,7 @@ void mainloop()
     cout<<"************************************************************************************************************************";
     cout<<"************************************************************************************************************************";
     cout<<"************************************************************************************************";
-    cout<<"\n\n\t\t\t\t\t\tWelcome To CSC 104 – OBJECT-ORIENTED PROGRAMMING (OOP) ASSIGNMENT NO. 02"<<endl;
+    cout<<"\n\n\t\t\t\t\t\tWelcome To CSC 104 â€“ OBJECT-ORIENTED PROGRAMMING (OOP) ASSIGNMENT NO. 02"<<endl;
     cout<<"\n\n************************************************************************************************************************";
     cout<<"************************************************************************************************************************";
     cout<<"************************************************************************************************";
@@ -66,8 +66,7 @@ void mainloop()
     cout<<"\t\t\t2. Teacher"<<endl;
     cout<<"\t\t\t3. Student"<<endl;
     cout<<"\t\t\t4. Available Courses List"<<endl;
-    cout<<"\t\t\t5. Run Whole Functionalities"<<endl;
-    cout<<"\t\t\t6. Exits";
+    cout<<"\t\t\t5. Exits";
 
     cout<<endl<<endl<<"\t\t\tEnter the Selected Number To Continue : ";
     cin>>classselection;
@@ -91,11 +90,7 @@ void mainloop()
         system("CLS");
         courseoption();
     }
-    else if (classselection == '5' )
-    {
-        system("CLS");
-        alloptions();
-    }
+
 }
 
 void personoption()
@@ -309,44 +304,6 @@ void courseoption()
     {
         system("CLS");
         courseoption();
-    }
-    else if (classselection == '2')
-        {
-        system("Color 5F");
-        mainloop();
-        }
-}
-
-void alloptions()
-{
-
-person a;
-teacher b;
-student c;
-course d;
-
-
-    system("Color 4F");
-    char classselection;
-    cout<<endl<<endl<<"\t\t\tSelect An Option to Continue Work :"<<endl<<endl;
-    cout<<"\t\t\t1. Run Again This Function"<<endl;
-    cout<<"\t\t\t2. Main Menu"<<endl;
-    cout<<"\t\t\t3. Exits"<<endl;
-
-    cout<<endl<<"\t\t\tEnter : ";
-    cin>>classselection;
-    if (classselection == '3')
-    {
-    	while(true)
-    	{
-    		break;
-		}
-
-    }
-    else if (classselection == '1')
-    {
-        system("CLS");
-        alloptions();
     }
     else if (classselection == '2')
         {
