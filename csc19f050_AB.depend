@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1596012251 source:e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\person.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	"person.h"
+
+1596012177 e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\person.h
+	<conio.h>
+	<iostream>
+	<string.h>
+
+1596008237 source:e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\student.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	"teacher.h"
+	"course.h"
+	"Student.h"
+
+1596008202 e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\teacher.h
+	<iostream>
+	<conio.h>
+	<string>
+	"course.h"
+	"person.h"
+
+1596008249 e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\course.h
+	<conio.h>
+	<iostream>
+	<string>
+
+1596012363 e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\student.h
+	<iostream>
+	<string.h>
+	"course.h"
+	"teacher.h"
+	<conio.h>
+
+1596012361 source:e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\course.cpp
+	<stdlib.h>
+	<iostream>
+	<conio.h>
+	<string>
+	"course.h"
+
+1596012300 source:e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\teacher.cpp
+	<iostream>
+	<conio.h>
+	<string>
+	"person.h"
+	"teacher.h"
+	"course.h"
+	<stdlib.h>
+
+1596012153 source:e:\smiu\semester ii\oop\assignment # 2\csc19f050_ab\main.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<time.h>
+	<stdlib.h>
+	"person.h"
+	"teacher.h"
+	"course.h"
+	"Student.h"
+
